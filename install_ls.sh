@@ -4,7 +4,7 @@
 
 cd /usr/bin
 wget https://artifacts.elastic.co/downloads/logstash/logstash-5.1.1.tar.gz &&
-tar xvfz logstash-1.5.0.tar.gz &&
+tar xvfz logstash-5.1.1.tar.gz &&
 
 #setup ls in global path
 #echo "LS_HOME=/usr/local/ls/logstash-1.5.0" >> /etc/profile &&
