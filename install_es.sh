@@ -3,7 +3,7 @@
 #setup directory
 cd /usr/bin &&
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.1.tar.gz &&
-tar -xvfz elasticsearch-1.7.5.tar.gz &&
+tar -xvfz elasticsearch-5.1.1.tar.gz &&
 
 #setup es in the global path
 #echo "ES_HOME=/usr/local/es/elasticsearch-1.7.5" >> /etc/profile &&
