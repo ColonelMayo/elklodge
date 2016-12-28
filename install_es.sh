@@ -2,7 +2,7 @@
 
 #setup directory
 cd /usr/bin &&
-wget https://download.elastic.co/elasticsearch/elasticsearch/elasticsearch-5.1.1.tar.gz &&
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.1.tar.gz &&
 tar -xvfz elasticsearch-1.7.5.tar.gz &&
 
 #setup es in the global path
