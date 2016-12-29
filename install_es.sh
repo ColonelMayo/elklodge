@@ -3,7 +3,7 @@
 #setup directory
 mkdir /elasticsearch &&
 cd /elasticsearch &&
-wget wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.1.deb &&
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.1.deb &&
 sudo dpkg -i elasticsearch-5.1.1.deb &&
 echo ""
 echo ""
