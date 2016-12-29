@@ -5,17 +5,18 @@ mkdir /elasticsearch &&
 cd /elasticsearch &&
 wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.1.deb &&
 dpkg -i elasticsearch-5.1.1.deb &&
+/bin/systemctl daemon-reload &&
+/bin/systemctl enable elasticsearch.service &&
+
+
 echo ""
+echo "###Script complete###"
 echo ""
-echo "###Script complete.###"
+echo "Elasticsearch can be started and stopped as follows:"
 echo ""
-echo "Next) You must manually edit /etc/profile to add ES_HOME to PATH."
+echo "systemctl start elasticsearch.service"
 echo ""
-echo "Then) You must edit .bashrc if you want to alias a test command."
+echo "systemctl stop elasticsearch.service"
 echo ""
-echo "Lastly) Read elastic.co documentation to run elasticsearch as a service."
-echo ""
-echo "####Setup ES_HOME in the PATH###"
-echo ""
-echo "add \"ES_HOME=/usr/bin/elasticsearch-5.1.1\" to /etc/profile"
+echo "###For troubleshooting this script RTFM located @ https://www.elastic.co/guide/en/elasticsearch/reference/current/deb.html###"
 echo ""
