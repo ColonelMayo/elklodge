@@ -12,4 +12,3 @@ dpkg -i logstash-5.1.1.deb &&
 #setup the installation
 
 #echo "Script complete. To setup logstash...path variable...aliases...read manual for running as a service"
-
