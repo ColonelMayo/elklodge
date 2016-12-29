@@ -1,9 +1,10 @@
 #!/bin/bash
 
 #setup directory
-cd /usr/bin &&
-wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.1.tar.gz &&
-tar -xvf elasticsearch-5.1.1.tar.gz &&
+mkdir /elasticsearch &&
+cd /elasticsearch &&
+wget wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.1.deb &&
+sudo dpkg -i elasticsearch-5.1.1.deb &&
 echo ""
 echo ""
 echo "###Script complete.###"
