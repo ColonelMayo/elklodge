@@ -4,11 +4,4 @@
 mkdir /logstash &&
 cd /logstash &&
 wget https://artifacts.elastic.co/downloads/logstash/logstash-5.1.1.deb &&
-dpkg -i logstash-5.1.1.deb &&
-
-#setup ls in global path
-#echo "LS_HOME=/usr/local/ls/logstash-1.5.0" >> /etc/profile &&
-
-#setup the installation
-
-#echo "Script complete. To setup logstash...path variable...aliases...read manual for running as a service"
+dpkg -i logstash-5.1.1.deb
