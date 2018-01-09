@@ -16,8 +16,8 @@ echo "JRE_HOME=/usr/local/java/jre1.8.0_151/jre" >> /etc/profile &&
 echo "export JAVA_HOME" >> /etc/profile &&
 echo "export JRE_HOME" >> /etc/profile &&
 
-update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk1.5.0_101/bin/java" 1 &&
-update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/jdk1.5.0_101/bin/javac" 1 &&
-update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/local/java/jdk1.5.0_101/bin/javaws" 1
+update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk1.8.0_151/bin/java" 1 &&
+update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/jdk1.8.0_151/bin/javac" 1 &&
+update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/local/java/jdk1.8.0_151/bin/javaws" 1
 
 java -version
