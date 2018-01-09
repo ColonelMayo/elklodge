@@ -3,8 +3,9 @@
 #setup directory
 mkdir /elasticsearch &&
 cd /elasticsearch &&
-wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.1.deb &&
-dpkg -i elasticsearch-5.1.1.deb &&
+#wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-5.1.1.deb &&
+wget https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.1.1.deb &&
+dpkg -i elasticsearch-6.1.1.deb &&
 /bin/systemctl daemon-reload &&
 /bin/systemctl enable elasticsearch.service &&
 
