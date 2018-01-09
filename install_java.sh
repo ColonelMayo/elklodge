@@ -10,14 +10,14 @@ cd /usr/local/java &&
 
 tar xvzf jdk-8u151-linux-x64.tar.gz &&
 
-echo "JAVA_HOME=/usr/local/java/jdk1.8.0_101" >> /etc/profile &&
-echo "JRE_HOME=/usr/local/java/jre1.8.0_101/jre" >> /etc/profile &&
+echo "JAVA_HOME=/usr/local/java/jdk1.8.0_151" >> /etc/profile &&
+echo "JRE_HOME=/usr/local/java/jre1.8.0_151/jre" >> /etc/profile &&
 
 echo "export JAVA_HOME" >> /etc/profile &&
 echo "export JRE_HOME" >> /etc/profile &&
 
-update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk1.8.0_101/bin/java" 1 &&
-update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/jdk1.8.0_101/bin/javac" 1 &&
-update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/local/java/jdk1.8.0_101/bin/javaws" 1
+update-alternatives --install "/usr/bin/java" "java" "/usr/local/java/jdk1.5.0_101/bin/java" 1 &&
+update-alternatives --install "/usr/bin/javac" "javac" "/usr/local/java/jdk1.5.0_101/bin/javac" 1 &&
+update-alternatives --install "/usr/bin/javaws" "javaws" "/usr/local/java/jdk1.5.0_101/bin/javaws" 1
 
 java -version
